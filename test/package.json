@@ -1,0 +1,16 @@
+{
+  "name": "@titem/test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Starter template for TypeScript library",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vision":"workspace:*",
+    "vitest":"0.21.1"
+  }
+}
