@@ -9,6 +9,7 @@
   "scripts": {
     "core":"pnpm -C core run build",
     "example":"pnpm -C example run dev",
+    "example:build":"pnpm -C example run build",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "typeCheck": "tsc --noEmit",
     "test": "pnpm -C test run test",
