@@ -29,5 +29,11 @@
   },
   "devDependencies": {
     "@elonehoo/vite-plugin-type-ts": "0.0.1"
+  },
+  "dependencies": {
+    "@elonehoo/colors-convert": "^0.0.1",
+    "@elonehoo/dom-traversal": "^0.0.3",
+    "@types/throttle-debounce": "^1.0.1",
+    "throttle-debounce": "^1.0.1"
   }
 }

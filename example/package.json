@@ -1,0 +1,15 @@
+{
+  "name": "@titem/example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Starter template for TypeScript library",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vision":"workspace:*"
+  }
+}

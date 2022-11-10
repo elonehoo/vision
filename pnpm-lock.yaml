@@ -24,9 +24,24 @@ importers:
 
   core:
     specifiers:
+      '@elonehoo/colors-convert': ^0.0.1
+      '@elonehoo/dom-traversal': ^0.0.3
       '@elonehoo/vite-plugin-type-ts': 0.0.1
+      '@types/throttle-debounce': ^1.0.1
+      throttle-debounce: ^1.0.1
+    dependencies:
+      '@elonehoo/colors-convert': 0.0.1
+      '@elonehoo/dom-traversal': 0.0.3
+      '@types/throttle-debounce': 1.1.1
+      throttle-debounce: 1.1.0
     devDependencies:
       '@elonehoo/vite-plugin-type-ts': 0.0.1
+
+  example:
+    specifiers:
+      vision: workspace:*
+    devDependencies:
+      vision: link:../core
 
   test:
     specifiers:
@@ -58,6 +73,14 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
+
+  /@elonehoo/colors-convert/0.0.1:
+    resolution: {integrity: sha512-6sfDWhrwSvc5xCYmQHFGXMfstne1dmEc2pZmdU4yelf/v5Wa3YBoLP7EmARkxZ6elu72/LfIrluTAOVEj3CKpg==}
+    dev: false
+
+  /@elonehoo/dom-traversal/0.0.3:
+    resolution: {integrity: sha512-UnuKIUD+Kb49NnbmDZGkoWcbBGr9XOLt9PpZFBPtFg/gvkP2TysZdqCfcrKGF1sEQ/av2ka0l459/Zcnt+N6gA==}
+    dev: false
 
   /@elonehoo/eslint-config-basic/2.0.0_2udltptbznfmezdozpdoa2aemq:
     resolution: {integrity: sha512-sOWQDQ0XJEcS2Nuk0orJu9vp3dDGmzalslSaQMLE32BBSixY3RX98G/t09AQltNFGg6iwgnhntUfxbaLhZfErA==}
@@ -392,6 +415,10 @@ packages:
   /@types/semver/7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: true
+
+  /@types/throttle-debounce/1.1.1:
+    resolution: {integrity: sha512-VhX9p0l8p3TS27XU+CnDfhdnzW7HpVgtKiYDh/lfucSAz8s9uTt0q4aPwcYIr+q+3/NghlU3smXBW6ItvfJKYQ==}
+    dev: false
 
   /@types/unist/2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
@@ -3010,6 +3037,11 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
+
+  /throttle-debounce/1.1.0:
+    resolution: {integrity: sha512-XH8UiPCQcWNuk2LYePibW/4qL97+ZQ1AN3FNXwZRBNPPowo/NRU5fAlDCSNBJIYCKbioZfuYtMhG4quqoJhVzg==}
+    engines: {node: '>=4'}
+    dev: false
 
   /timsort/0.3.0:
     resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
