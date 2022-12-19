@@ -32,7 +32,7 @@ jobs:
         run: pnpm run example:build
 
       - name: Run echo cname
-        run: echo 'vision.elonehoo.xyz' > example/dist/CNAME
+        run: echo 'vision.elonehoo.me' > example/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
