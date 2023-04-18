@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@elonehoo/colors-convert": "^0.0.1",
-    "@elonehoo/dom-traversal": "^0.0.3",
+    "@elonehoo/dom-traversal": "^0.0.4",
     "@types/throttle-debounce": "^1.1.1",
     "throttle-debounce": "^1.1.0"
   }
